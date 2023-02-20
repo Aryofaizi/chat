@@ -1,8 +1,20 @@
 function findDuplicates(arr) {
     // Your code here
+    let duplicates = [];
     for(item of arr){
-        console.log(item)
+        console.log("item",item)
+        let counter = 0;
+        for(value of arr){
+            if(value == item){
+                counter ++;
+            }
+            console.log("counter",counter)
+            if(counter >1 && !duplicates.includes(item)){
+                duplicates.push(item);
+            }
+        }
     }
+    return duplicates;
   }
   
   // Test the function with an example array
