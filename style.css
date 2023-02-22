@@ -35,7 +35,7 @@ form{
   /* border: 2px solid brown; */
   text-align: center;
 }
-.item-div ul{
+.item-div ul,#ul2,#ul3{
   list-style: none;
   margin-top: 5px;
 }
