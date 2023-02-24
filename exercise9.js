@@ -1,6 +1,6 @@
 function isPalindrome (str) {
     str = str.toLowerCase()
-    str = str.replace(/\s/g,"");
+    str = str.replace(/ /g,"");
     splited = str.split("")
     const reversed = splited.reverse()
     if(str == reversed.join("")){
