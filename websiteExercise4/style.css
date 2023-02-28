@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --marginleft:50px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(20, 44, 20);
+    font-family: sans-serif;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+h1{
+    margin-left: 50px;
+    color: white;
+    font-weight: lighter;
+}
+
+.input-title{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 70%;
+    color: white;
+    background: none;
+    height: 45px;
+    margin-left: var(--marginleft);
+    padding: 0 10px;
+}
+.add-btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 50px;
+    color: white;
+    background: none;
+    padding: 15px 7px;
+    margin-left: 10px;
+}
+
+.todos-div{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    width: 81%;
+    color: white;
+    background: none;
+    height: 45px;
+    margin-left: var(--marginleft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: var(--marginleft);
+}
+
+.delete-btn{
+    color: red;
+    text-decoration: none;
+}
