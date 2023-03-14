@@ -1,0 +1,5 @@
+aryo 20
+hamakarim 19
+jadid 50
+newtest 12
+ididit 100
